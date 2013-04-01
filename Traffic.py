@@ -1,0 +1,34 @@
+from string import lower
+
+class Traffic:
+ ''' Every node generates a specific traffic, like CBR, FTP, Telnet, Pareto, Trace, etc.This class define the traffic to be attached to the agent '''
+ def __init__(self,id_,type_,fid_,rate_,packetSize_):
+   self.id = id_
+   self.type =type_
+   self.fid = fid_
+   self.rate = rate_
+   self.packetSize = packetSize_
+  
+  
+ def __repr__ (self):
+  agent_id = lower(self.type) + '_' + self.id 
+  return agent_id
+
+ def getId(self):
+  return self.id
+
+ def getType(self):
+  return self.type
+ 
+ def getFid(self):
+  return self.fid
+
+ def getRate(self):
+  return self.rate
+
+ def getPacketSize(self):
+  return self.packetSize
+
+   
+  
+

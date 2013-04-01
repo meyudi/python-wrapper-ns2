@@ -1,0 +1,119 @@
+udp_0 UDP cbr_0
+cbr_0 CBR 1MB
+udp_1 UDP cbr_0
+cbr_0 CBR 1MB
+udp_2 UDP cbr_0
+cbr_0 CBR 1MB
+udp_3 UDP cbr_0
+cbr_0 CBR 1MB
+udp_4 UDP cbr_0
+cbr_0 CBR 1MB
+udp_5 UDP cbr_0
+cbr_0 CBR 1MB
+udp_6 UDP cbr_0
+cbr_0 CBR 1MB
+udp_7 UDP cbr_0
+cbr_0 CBR 1MB
+udp_8 UDP cbr_0
+cbr_0 CBR 1MB
+udp_9 UDP cbr_0
+cbr_0 CBR 1MB
+udp_10 UDP cbr_0
+cbr_0 CBR 1MB
+udp_11 UDP cbr_0
+cbr_0 CBR 1MB
+udp_12 UDP cbr_0
+cbr_0 CBR 1MB
+udp_13 UDP cbr_0
+cbr_0 CBR 1MB
+null_14 Null None
+None 
+
+pmu_0 PMU 0
+[udp_0]
+pmu_1 PMU 0
+[udp_1]
+pmu_2 PMU 0
+[udp_2]
+pmu_3 PMU 0
+[udp_3]
+pmu_4 PMU 0
+[udp_4]
+pmu_5 PMU 0
+[udp_5]
+pmu_6 PMU 0
+[udp_6]
+pmu_7 PMU 0
+[udp_7]
+pmu_8 PMU 0
+[udp_8]
+pmu_9 PMU 0
+[udp_9]
+pmu_10 PMU 0
+[udp_10]
+pmu_11 PMU 0
+[udp_11]
+pmu_12 PMU 0
+[udp_12]
+pmu_13 PMU 0
+[udp_13]
+gateway_14 GATEWAY 0
+[]
+gateway_15 GATEWAY 0
+[]
+gateway_16 GATEWAY 0
+[]
+gateway_17 GATEWAY 0
+[]
+gateway_18 GATEWAY 0
+[]
+gateway_19 GATEWAY 0
+[]
+gateway_20 GATEWAY 0
+[]
+gateway_21 GATEWAY 0
+[]
+gateway_22 GATEWAY 0
+[]
+gateway_23 GATEWAY 0
+[]
+gateway_24 GATEWAY 0
+[]
+gateway_25 GATEWAY 0
+[]
+gateway_26 GATEWAY 0
+[]
+gateway_27 GATEWAY 0
+[]
+pdc_28 PDC 10
+[null_14]
+
+
+0 pmu_0 gateway_14 1Mb
+1 pmu_1 gateway_15 1Mb
+2 pmu_2 gateway_16 1Mb
+3 pmu_3 gateway_17 1Mb
+4 pmu_4 gateway_18 1Mb
+5 pmu_5 gateway_19 1Mb
+6 pmu_6 gateway_20 1Mb
+7 pmu_7 gateway_21 1Mb
+8 pmu_8 gateway_22 1Mb
+9 pmu_9 gateway_23 1Mb
+10 pmu_10 gateway_24 1Mb
+11 pmu_11 gateway_25 1Mb
+12 pmu_12 gateway_26 1Mb
+13 pmu_13 gateway_27 1Mb
+14 gateway_14 pdc_28 0.5Mb
+15 gateway_15 pdc_28 0.5Mb
+16 gateway_16 pdc_28 0.5Mb
+17 gateway_17 pdc_28 0.5Mb
+18 gateway_18 pdc_28 0.5Mb
+19 gateway_19 pdc_28 0.5Mb
+20 gateway_20 pdc_28 0.5Mb
+21 gateway_21 pdc_28 0.5Mb
+22 gateway_22 pdc_28 0.5Mb
+23 gateway_23 pdc_28 0.5Mb
+24 gateway_24 pdc_28 0.5Mb
+25 gateway_25 pdc_28 0.5Mb
+26 gateway_26 pdc_28 0.5Mb
+27 gateway_27 pdc_28 0.5Mb

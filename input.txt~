@@ -1,0 +1,10 @@
+traffic:0,CBR,0,1MB,500
+agent:0,UDP,0
+agent:1,Null,-1
+node:0,PMU,[0],0
+node:1,gateway,[],0
+node:2,PDC,[0;1],10
+node:3,SPDC,[1],20
+link:0,0,1,1Mb,10ms,DropTail,100
+link:1,1,2,1Mb,10ms,DropTail,100
+link:2,2,3,0.5Mb,10ms,DropTail,100
